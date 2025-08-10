@@ -1,1 +1,12 @@
 .DS_Store
+
+# Ignoră toate fișierele fără extensie din toate folderele
+**/[!.]*
+
+# Excepții: păstrează folderele
+!*/
+
+# Excepții: păstrează tipurile de fișiere dorite
+!**/*.cpp
+!**/*.pdf
+!**/*.md
